@@ -1,5 +1,6 @@
 ---
 - name: Configure an Ethernet connection with static IP
+  hosts: all
   become: true
   tasks:
   - include_role:
